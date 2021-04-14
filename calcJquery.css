@@ -3,7 +3,7 @@
   width: 370px;
   height: 448px;
   background-color: #dcdcdc;
-  /* border: 2px solid #800080; */
+  border: 2px solid #800080;
 }
 .keyboard {
   width: 400px;
@@ -69,8 +69,11 @@ input {
 
 @media only screen and (max-width: 540px) {
   .container-1 {
-    margin: 48px 30px;
-    width: 10px;
-    height: 400px;
+    margin: 48px;
+    left: 0;
+    width: 370px;
+    height: auto;
+    background-color: #dcdcdc;
+    border: 2px solid #800080;
   }
 }
